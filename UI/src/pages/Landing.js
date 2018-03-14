@@ -16,7 +16,7 @@ const Landing = ({ root = false }) =>
         <h4>Ditch bot commands once and for all.</h4>
       </section>
       <section>
-        <Link to="/oauth/flow" className="uk-button rp-button discord"><img src={discordLogo} className="rp-button-logo"/> Sign in with Discord</Link>
+        <Link to="/oauth/flow" className="uk-button rp-button discord"><img src={discordLogo} className="rp-button-logo" alt=""/> Sign in with Discord</Link>
       </section>
       <section uk-grid="">
         {/* Typist */}

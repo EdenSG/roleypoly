@@ -39,7 +39,7 @@ export default class ServerLanding extends Component {
           <h5><span role="img">💖</span></h5>
         </section>
         <section>
-          <Link to={`/oauth/flow?r=${window.location.pathname}`} className="uk-button rp-button discord"><img src={discordLogo} className="rp-button-logo"/> Sign in with Discord</Link>
+          <Link to={`/oauth/flow?r=${window.location.pathname}`} className="uk-button rp-button discord"><img src={discordLogo} className="rp-button-logo" alt=""/> Sign in with Discord</Link>
         </section>
       </div>
     </div>
